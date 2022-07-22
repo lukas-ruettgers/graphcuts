@@ -12,4 +12,4 @@ In the resources folder, you can find some examples from the [Berkeley Image Seg
 - The seeds colored by the mean feature value of the segment they have been assigned to by the thresholding algorithm
 - The image colored in a color scale between blue and red. The more red a pixel is, the higher is the likelyhood it belongs to the object. The more blue a pixel is, the higher is the likelyhood it belongs to the background.
 - The final segmentation, where the background pixels are removed.
-![final segmentation example](https://github.com/lukas-ruettgers/graphcuts/resources/koala/result_noise2500_lambda10_1658498193.243594.png?raw=true)
+![final segmentation example](https://github.com/lukas-ruettgers/graphcuts/blob/main/resources/koala/result_noise2500_lambda10_1658498193.243594.png?raw=true)
