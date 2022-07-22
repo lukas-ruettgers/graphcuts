@@ -8,8 +8,11 @@ Concretization and implementation of the graph cuts image segmentation algorithm
 
 ## Examples
 In the resources folder, you can find some examples from the [Berkeley Image Segmentation Dataset](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300/html/dataset/images.html) on which I tested the algorithm performance. In the koala subfolder, you can find example outputs for a koala picture. The output includes:
-- The image colored in a scale from white to red. Red values indicate high feature differences between neighbouring pixels, white values the opposite.
-- The seeds colored by the mean feature value of the segment they have been assigned to by the thresholding algorithm
-- The image colored in a color scale between blue and red. The more red a pixel is, the higher is the likelyhood it belongs to the object. The more blue a pixel is, the higher is the likelyhood it belongs to the background.
-- The final segmentation, where the background pixels are removed.
+- The image colored in a scale from white to red. Red values indicate high feature differences between neighbouring pixels, white values the opposite.  
+![regional term example](https://github.com/lukas-ruettgers/graphcuts/blob/main/resources/koala/boundary_2500_lambda10_1657533783.4815354.png?raw=true)
+- The seeds colored by the mean feature value of the segment they have been assigned to by the thresholding algorithm  
+![regional term example](https://github.com/lukas-ruettgers/graphcuts/blob/main/resources/koala/seeds_1657462747.5013611.png?raw=true)
+- The image colored in a color scale between blue and red. The more red a pixel is, the higher is the likelyhood it belongs to the object. The more blue a pixel is, the higher is the likelyhood it belongs to the background.  
+![regional term example](https://github.com/lukas-ruettgers/graphcuts/blob/main/resources/koala/regional_2sqrt1657524481.615033.png?raw=true)
+- The final segmentation, where the background pixels are removed.  
 ![final segmentation example](https://github.com/lukas-ruettgers/graphcuts/blob/main/resources/koala/result_noise2500_lambda10_1658498193.243594.png?raw=true)
