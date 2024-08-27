@@ -7,7 +7,10 @@ Concretization and implementation of the graph cuts image segmentation algorithm
 - To obtain the correspondence of each pixel to the object or background, the similarity to each seed segment is determining using the segment mean and standard deviation. This result is weighted by the relative proportion of the segment size to the total amount of object/background seeds
 
 ## Examples
-In the resources folder, you can find some examples from the [Berkeley Image Segmentation Dataset](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300/html/dataset/images.html) on which I tested the algorithm performance. In the koala subfolder, you can find example outputs for a koala picture. The output includes:
+In the resources folder, you can find some examples from the [Berkeley Image Segmentation Dataset](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300/html/dataset/images.html) on which I tested the algorithm performance. In the koala subfolder, you can find example outputs for a koala picture. 
+![regional term example](https://github.com/lukas-ruettgers/graphcuts/blob/main/resources/koala.jpg)
+
+The output of my code includes:
 - The image colored in a scale from white to red. Red values indicate high feature differences between neighbouring pixels, white values the opposite.  
 ![regional term example](https://github.com/lukas-ruettgers/graphcuts/blob/main/resources/koala/boundary_2500_lambda10_1657533783.4815354.png?raw=true)
 - The seeds colored by the mean feature value of the segment they have been assigned to by the thresholding algorithm  
