@@ -8,6 +8,7 @@ Concretization and implementation of the graph cuts image segmentation algorithm
 
 ## Examples
 In the resources folder, you can find some examples from the [Berkeley Image Segmentation Dataset](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300/html/dataset/images.html) on which I tested the algorithm performance. In the koala subfolder, you can find example outputs for a koala picture. 
+
 ![regional term example](https://github.com/lukas-ruettgers/graphcuts/blob/main/resources/koala.jpg)
 
 The output of my code includes:
